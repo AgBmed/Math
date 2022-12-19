@@ -18,6 +18,7 @@ int main() {
     _Bool resultand;
     _Bool resultnot;
     int runme(void);
+    int AreaOfShapes(void);
 
     resultadd = a + b;
     resultsub = a - b;
@@ -46,6 +47,7 @@ int main() {
     printf("E being = %d, and F being = 2, applying f += e we get = %d \n", e, f);
 
     runme();
+    AreaOfShapes();
     
     return 0;
 }
