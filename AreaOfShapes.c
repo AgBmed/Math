@@ -34,3 +34,18 @@ int AreaOfTriangle() {
     printf("Thank you, the area of this triangle is %.2f \n", triangle);
     return 0;
 }
+
+int AreaOfSquare() {
+
+    int c;
+    float square;
+
+    printf("Obtaining the area of a square; \n");
+    printf("Please give me the side length\n");
+    scanf("%d", &c);
+    
+    square = (float) (c * c);
+
+    printf("Thank you, the area of this square is: %.2f \n", square);
+    return 0;
+}

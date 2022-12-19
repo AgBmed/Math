@@ -20,6 +20,7 @@ int main() {
     int runme(void);
     int AreaOfRectangle(void);
     int AreaOfTriangle(void);
+    int AreaOfSquare(void);
 
     resultadd = a + b;
     resultsub = a - b;
@@ -50,6 +51,7 @@ int main() {
     runme();
     AreaOfRectangle();
     AreaOfTriangle();
+    AreaOfSquare();
     
     return 0;
 }
