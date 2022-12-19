@@ -19,6 +19,7 @@ int main() {
     _Bool resultnot;
     int runme(void);
     int AreaOfRectangle(void);
+    int AreaOfTriangle(void);
 
     resultadd = a + b;
     resultsub = a - b;
@@ -48,6 +49,7 @@ int main() {
 
     runme();
     AreaOfRectangle();
+    AreaOfTriangle();
     
     return 0;
 }
