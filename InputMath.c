@@ -6,11 +6,11 @@ int runme() {
     float result;
 
     printf("Let's try something new: \n");
-    printf("Let's get the average of 2 numbers, please provide me with the first variable: ");
+    printf("Let's get the average of 2 numbers, please provide me with the first variable: \n");
 
     scanf("%d", &a);
 
-    printf("Thank you, please give me the second one: ");
+    printf("Thank you, please give me the second one: \n");
 
     scanf("%d", &b);
 
