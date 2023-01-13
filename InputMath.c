@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int runme() {
+int average() {
 
     int a, b;
     float result;

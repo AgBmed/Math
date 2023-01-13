@@ -17,7 +17,7 @@ int main() {
     _Bool resultor;
     _Bool resultand;
     _Bool resultnot;
-    int runme(void);
+    int average(void);
     int AreaOfRectangle(void);
     int AreaOfTriangle(void);
     int AreaOfSquare(void);
@@ -48,7 +48,7 @@ int main() {
 
     printf("E being = %d, and F being = 2, applying f += e we get = %d \n", e, f);
 
-    runme();
+    average();
     AreaOfRectangle();
     AreaOfTriangle();
     AreaOfSquare();
