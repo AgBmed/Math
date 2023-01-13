@@ -1,11 +1,13 @@
 #include <stdio.h>
+#include <stdbool.h>
+#include <stdlib.h>
 
 int main() {
 
     int a = 3;
     int b = 4;
-    _Bool c = 1;
-    _Bool d = 0;
+    bool c = true;
+    bool d = false;
     int e = 5;
     int f = 2;
 
@@ -14,9 +16,9 @@ int main() {
     int resultmult = 0;
     int resultdiv = 0;
     int resultmod = 0;
-    _Bool resultor;
-    _Bool resultand;
-    _Bool resultnot;
+    bool resultor;
+    bool resultand;
+    bool resultnot;
     int average(void);
     int AreaOfRectangle(void);
     int AreaOfTriangle(void);

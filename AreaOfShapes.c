@@ -11,6 +11,11 @@ int AreaOfRectangle() {
     printf("Thank you, now the height please: \n");
     scanf("%d", &y);
 
+    if (x == y) {
+        printf("You gave me a square, not a rectangle XD\n");
+        return 0;
+    }
+
     rectangle = (float) (x * y);
 
     printf("Thank you, the area of this rectangle is %.2f \n", rectangle);
